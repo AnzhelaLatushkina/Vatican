@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Страница о магистерской работе Латушкиной А.В.</title>
+    <style>
+        body {
+            background-color: #fafafa;
+            font-family: arial;
+        }
+        .photo {
+            float: left;
+            object-fit: cover;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-right: 12px;
+            margin-bottom: 12px;
+        }
+        .info::after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+        .list-label {
+            font-weight: bold;
+        }
+        main {
+            background-color: white;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, .16),
+                        0 3px 6px rgba(0, 0, 0, .23);
+            margin: 16px;
+            padding: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Страница о магистрской работе Иванова И. И.</h1>
+        <section class="info">
+            <h2>Автобиография</h2>
+            <img src="#https://github.com/Latushkinaangela/vatican/blob/master/avatar.jpg" alt="Фотография Латушкина А. В." class="photo">
+            <p>
+                Латушкина Анжела Васильевна
+				
+				        Магистрант специальности международных отношений и внешней политики факультета международных отношений 
+				        Белорусского государственного университета. Владею двумя иностранными языками (английский и немецкий). 
+				        Сфера научных интересов - дипломатическая служба Святого Престола, деятельность Католической Церкви 
+                на международной арене.
+            </p>
+        </section>
+        <section>
+            <label class="list-label" for="workLinks">Ссылки на </label>
+            <ul id="workLinks">
+                <li>
+                    <a href="#https://github.com/[username]/[repository_name]/raw/master/[path_to_file]/[filename_with_extension]">Реферат</a>
+                </li>
+                <li>
+                    <a href="https://github.com/bukerok/test-gh-pages/raw/master/masters-work.doc">Выпускная работа</a>
+                </li>
+                <li>
+                    Научный руководитель <a href="#http://fir.bsu.by/index.php/ru/departments/dcs-in-menu/52-departments/dcs-department/dcs-staff/5938-dcs-tozik.html" target="_blank">Тозик Анатолий Афанасьевич</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
